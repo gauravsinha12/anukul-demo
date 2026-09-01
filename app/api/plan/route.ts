@@ -84,7 +84,7 @@ Hard rules:
 
 export async function POST(req: Request) {
   let role = "Data Analyst";
-  let studentName = "Riya";
+  let studentName = "Prachi";
   let gapsText = "";
   let weatherText = "";
   let mirrorText = "";

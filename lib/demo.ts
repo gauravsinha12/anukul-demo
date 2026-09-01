@@ -36,7 +36,7 @@ export function demoWeather(role: string, city: string): Weather {
   };
 }
 
-export function demoPlan(focus: string, studentName = "Riya"): Plan {
+export function demoPlan(focus: string, studentName = "Prachi"): Plan {
   return {
     focusSkill: focus || "Prompt engineering",
     why: `It is the fastest-rising skill in your market that you have almost no evidence for, and it lifts everything else you already know how to do.`,

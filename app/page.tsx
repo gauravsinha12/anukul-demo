@@ -26,7 +26,7 @@ const STEPS = [
 ];
 
 export default function Page() {
-  const [studentName, setStudentName] = useState("Riya");
+  const [studentName, setStudentName] = useState("Prachi");
   const [role, setRole] = useState(ROLES[0]);
   const [city, setCity] = useState(CITIES[0]);
 
@@ -281,7 +281,7 @@ export default function Page() {
           <h2 style={{ margin: "5px 0 4px" }}>Now run it for a semester</h2>
           <p className="sub" style={{ marginBottom: 16 }}>
             One Sunday moves the APQ a little. Twenty-four of them is the whole argument: this is
-            Riya on slide 13, week 1 to week 24.
+            Prachi on slide 13, week 1 to week 24.
           </p>
           <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
             <button className="btn primary" onClick={simulateSemester}>

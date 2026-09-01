@@ -152,7 +152,7 @@ export const ROLES = [
 
 export const CITIES = ["Patna", "Bengaluru", "Hyderabad", "Pune", "Remote (India)"];
 
-/** Riya at week 1 - the student on slide 13. */
+/** Prachi at week 1 - the student on slide 13. */
 export function seedSkills(): Skill[] {
   return [
     { id: "problem", name: "Problem framing & logic", category: "human", level: 78, lastUsedMonths: 1 },
@@ -165,7 +165,7 @@ export function seedSkills(): Skill[] {
   ];
 }
 
-/** Riya at week 24 - what one semester of three-hour Sundays actually does. */
+/** Prachi at week 24 - what one semester of three-hour Sundays actually does. */
 export function afterSixMonths(): { skills: Skill[]; proofs: Proof[] } {
   return {
     skills: [
